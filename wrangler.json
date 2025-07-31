@@ -8,7 +8,26 @@
     "binding": "ASSETS"
   },
   "observability": {
-    "enabled": true
+    "enabled": false
   },
-  "upload_source_maps": true
+  "upload_source_maps": true,
+  "workers_dev": true,
+  "preview_urls": false,
+  "vars": {
+    "ENVIRONMENT": "development"
+  },
+  "env": {
+    "staging": {
+      "name": "site-staging",
+      "vars": {
+        "ENVIRONMENT": "staging"
+      }
+    },
+    "production": {
+      "name": "site-production",
+      "vars": {
+        "ENVIRONMENT": "production"
+      }
+    }
+  }
 }
