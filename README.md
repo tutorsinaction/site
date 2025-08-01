@@ -99,8 +99,8 @@ TIA is a student-led organisation registered under Jabatan Pendaftaran Pertubuha
 
 ### Prerequisites
 
-- Node.js (v18 or later)
-- pnpm
+- [Node.js](https://nodejs.org/en/download) (v18 or later)
+- [PNPM](https://pnpm.io/installation#using-npm)
 
 ### Installation
 
@@ -133,7 +133,7 @@ git checkout -b feature/landing-page
 ```
 
 2. Make changes and test locally
-3. Commit and push changes to `origin/feature/landing-page`
+3. Commit and push changes
 4. Create a pull request `development` <- `feature/landing-page`
 
 **Maintainer**
@@ -141,7 +141,7 @@ git checkout -b feature/landing-page
 1. Review, approve, merge, and test `development`
 2. Create a pull request `staging` <- `development`
 3. Review, approve, merge, and test `staging`
-4. Create pull request `main` <- `staging`
+4. Create a pull request `main` <- `staging`
 5. Review, approve, merge, and test `main`
 
 ### Project Structure
@@ -258,7 +258,7 @@ Don't forget to give the project a star! Thanks again!
 
 ## License
 
-Distributed under the GNU General Public License v3.0. See [LICENSE.txt][license-url] for more information.
+Distributed under the GNU General Public License v3.0. See [LICENSE.md][license-url] for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
