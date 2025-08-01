@@ -2,6 +2,8 @@ name: "🚀 Feature request"
 description: "Please provide as much detail as possible. Issues may be closed if they do not follow the template."
 title: "[🚀] Feature Request Title - CHANGE ME "
 labels: ["enhancement"]
+type: "Feature"
+projects: ["site"]
 body:
   - type: markdown
     attributes:
@@ -34,9 +36,9 @@ body:
       label: Acceptance Criteria
       description: List the conditions that must be met for this feature to be complete.
       placeholder: |
-        - Criteria 1
-        - Criteria 2
-        - Criteria 3
+        1. Criteria 1
+        2. Criteria 2
+        3. Criteria 3
     validations:
       required: false
 

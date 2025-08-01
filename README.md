@@ -27,7 +27,7 @@
 <h3 align="center">Tutors In Action Malaysia Official Website</h3>
 
   <p align="center">
-    We're an independent, student-led project aiming to assist SPM students who lack access to affordable tuition.
+    An independent project aiming to assist students who lack access to affordable tuition.
     <br />
     <a href="https://github.com/tutorsinaction/site"><strong>Explore the docs »</strong></a>
     <br />
@@ -78,9 +78,9 @@
 
 ## About The Project
 
-[![Tutors In Action Malaysia][product-screenshot]][product-url]
+[![Tutors In Action Malaysia Official Website][product-screenshot]][product-url]
 
-TIA is a student-led organisation registered under Jabatan Pendaftaran Pertubuhan Malaysia (JPPM). Ever since our establishment in March 2020 to combat pandemic-related issues such as disrupted classes, TIA has been upholding SDG 4 – ‘Quality Education’ with the utmost earnestness and integrity. Our organisation is dedicated to providing free assistance to Form 5 students in their SPM preparation, addressing the challenges arising from disrupted classes and limited access to affordable tuition options. In addition to our core mission, we have and are currently venturing into other educational-themed side projects, expanding our impact and outreach.
+Tutors In Action Malaysia (TIA) is an organization registered under the Jabatan Pendaftaran Pertubuhan Malaysia (JPPM), established in March 2020 with the primary objective of addressing challenges arising from pandemic-related disruptions, particularly in education. Since its inception, TIA has remained steadfast in its commitment to uphold Sustainable Development Goal 4 (SDG4): Quality Education with the utmost integrity and dedication. The organization provides free academic assistance to students, aiming to mitigate the adverse effects of interrupted classes and the lack of access to affordable tuition services. Beyond its core mission, TIA is actively expanding its scope through various educational side projects, thereby broadening its impact and enhancing its outreach to a wider community.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,7 +129,6 @@ TIA is a student-led organisation registered under Jabatan Pendaftaran Pertubuha
 git checkout development
 git pull origin development
 git checkout -b feature/landing-page
-
 ```
 
 2. Make changes and test locally
@@ -147,17 +146,17 @@ git checkout -b feature/landing-page
 ### Project Structure
 
 ```sh
-docs/                 # Documentation assets
-public/               # Static assets
-src/
-├── components/       # Reusable components
-├── content/          # Markdown content collections
-├── layouts/          # Page and section templates
-├── pages/            # File-based routing
-├── styles/           # Tailwind config and styles
-├── consts.ts         # Shared constants
-├── content.config.ts # Markdown content schema
-
+root/
+├── docs/             # Documentation assets
+├── public/           # Static assets (e.g., images, favicon, etc.)
+└── src/
+   ├── components/       # Reusable UI components
+   ├── content/          # Markdown content collections
+   ├── layouts/          # Page and section templates
+   ├── pages/            # File-based routing
+   ├── styles/           # TailwindCSS configuration and global styles
+   ├── consts.ts         # Shared constants and enumerations
+   └── content.config.ts # Markdown content type definitions and schema
 ```
 
 `src/pages/`  
@@ -191,7 +190,7 @@ All commands are run from the root of the project, from a terminal:
 | `pnpm dev`             | Starts local dev server at `localhost:4321`      |
 | `pnpm build`           | Build your production site to `./dist/`          |
 | `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `pnpm astro ...`       | Run CLI commands e.g. `astro add`, `astro check` |
 | `pnpm astro -- --help` | Get help using the Astro CLI                     |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -200,7 +199,7 @@ All commands are run from the root of the project, from a terminal:
 
 ## Deployment
 
-The project is deployed using Cloudflare Workers CI/CD pipeline and configured using `wrangler`.
+The project is deployed using Cloudflare Workers CI/CD pipeline and configured using wrangler.
 
 | Branch        | Environment | Purpose             |
 | ------------- | ----------- | ------------------- |
@@ -227,7 +226,7 @@ Each environment is linked to a separate Cloudflare Worker, and triggered automa
 - [ ] Contact
 - [ ] Donate
 
-See the [open issues](https://github.com/tutorsinaction/site/issues) for a full list of proposed features (and known issues).
+See the [roadmap](https://github.com/orgs/tutorsinaction/projects/4/views/4) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -240,11 +239,11 @@ Contributions are what make the open source community such an amazing place to l
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/amazing-feature`)
-3. Commit your Changes (`git commit -m 'feat: add some amazing feature'`)
-4. Push to the Branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'feat: add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a pull request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -268,7 +267,8 @@ Distributed under the GNU General Public License v3.0. See [LICENSE.md][license-
 
 Tutors In Action Malaysia - [LinkedIn][linkedin-url] - tutors.in.action.malaysia@gmail.com
 
-Project Link: [https://github.com/tutorsinaction/site](https://github.com/tutorsinaction/site)
+Website Link: https://site-production.tutors-in-action-malaysia.workers.dev/  
+GitHub Link: https://github.com/tutorsinaction/site
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -294,7 +294,7 @@ Project Link: [https://github.com/tutorsinaction/site](https://github.com/tutors
 [issues-shield]: https://img.shields.io/github/issues/tutorsinaction/site.svg?style=for-the-badge
 [issues-url]: https://github.com/tutorsinaction/site/issues
 [license-shield]: https://img.shields.io/github/license/tutorsinaction/site.svg?style=for-the-badge
-[license-url]: https://github.com/tutorsinaction/site/blob/main/LICENSE.txt
+[license-url]: https://github.com/tutorsinaction/site/blob/main/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/company/tutors-in-action-malaysia/
 [product-screenshot]: docs/images/screenshot.png
