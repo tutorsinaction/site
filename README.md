@@ -294,7 +294,7 @@ Project Link: [https://github.com/tutorsinaction/site](https://github.com/tutors
 [issues-shield]: https://img.shields.io/github/issues/tutorsinaction/site.svg?style=for-the-badge
 [issues-url]: https://github.com/tutorsinaction/site/issues
 [license-shield]: https://img.shields.io/github/license/tutorsinaction/site.svg?style=for-the-badge
-[license-url]: https://github.com/tutorsinaction/site/blob/master/LICENSE.txt
+[license-url]: https://github.com/tutorsinaction/site/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/company/tutors-in-action-malaysia/
 [product-screenshot]: docs/images/screenshot.png
