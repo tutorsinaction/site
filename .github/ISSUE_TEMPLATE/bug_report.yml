@@ -2,6 +2,8 @@ name: "🐛 Bug/Issue report"
 description: "Please provide as much detail as possible. Issues may be closed if they do not follow the template."
 title: "[🐛] Bug Report Title - CHANGE ME "
 labels: ["bug"]
+type: "Bug"
+projects: ["site"]
 body:
   - type: markdown
     attributes:

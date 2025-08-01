@@ -2,6 +2,8 @@ name: "🚀 Feature request"
 description: "Please provide as much detail as possible. Issues may be closed if they do not follow the template."
 title: "[🚀] Feature Request Title - CHANGE ME "
 labels: ["enhancement"]
+type: "Feature"
+projects: ["site"]
 body:
   - type: markdown
     attributes:
