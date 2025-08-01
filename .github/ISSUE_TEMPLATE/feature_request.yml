@@ -36,9 +36,9 @@ body:
       label: Acceptance Criteria
       description: List the conditions that must be met for this feature to be complete.
       placeholder: |
-        - Criteria 1
-        - Criteria 2
-        - Criteria 3
+        1. Criteria 1
+        2. Criteria 2
+        3. Criteria 3
     validations:
       required: false
 
