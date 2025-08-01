@@ -34,9 +34,9 @@
     <br />
     <a href="https://site-production.tutors-in-action-malaysia.workers.dev/">View Website</a>
     &middot;
-    <a href="https://github.com/tutorsinaction/site/issues/new?labels=bug&template=bug_report.md">Report Bug</a>
+    <a href="https://github.com/tutorsinaction/site/issues/new?template=bug_report.yml">Report Bug</a>
     &middot;
-    <a href="https://github.com/tutorsinaction/site/issues/new?labels=enhancement&template=feature_request.md">Request Feature</a>
+    <a href="https://github.com/tutorsinaction/site/issues/new?template=feature_request.yml">Request Feature</a>
   </p>
 </div>
 
